@@ -3,7 +3,7 @@
 
 shopt -s extglob
 password="^([[:upper:]]{1}[[:lower:]]{4,}[0-9]{2,}[@#$^]{1})$"
-echo "enter the phone number " password
+echo "enter the password " password
 read password
 
 if [[ $password =~ $pat ]]
